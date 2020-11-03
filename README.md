@@ -49,3 +49,17 @@ It should look like this
 
 #### Step 5
 ![Heroku upload](public/images/herokuupload.PNG)
+
+## Quick start for locally run
+```
+=> git clone https://github.com/Bepul-Hossain/all-person-contract.git
+=> npm i
+(Don't forgot to change MONGO_URI. You may follow the step 2)
+=> npm run server
+```
+
+```
+=> cd client
+=> npm i
+=> npm start
+```

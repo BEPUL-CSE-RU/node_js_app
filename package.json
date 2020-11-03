@@ -6,20 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "server":"nodemon server.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.20",
     "mongoose": "^5.4.13",
     "prop-types": "^15.7.2"
   },
   "engines": {
     "node": "12.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
