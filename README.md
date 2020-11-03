@@ -1,6 +1,4 @@
-## Deploying MERN Stack to Heroku
-
-> Note: all these steps below are done inside the main `server.js` file. In our case, inside server.js. 
+## Deploying MERN Stack to Heroku.
 
 Assuming you have the following folder structure
 
@@ -24,7 +22,7 @@ Assuming you have the following folder structure
 ├── package.json
 └── README.MD
 ```
-
+> Note: all these steps below are done inside the main `server.js` file. In our case, inside server.js. 
 
 #### Step 1
 ![PORT Images](public/images/port.png);
@@ -50,4 +48,4 @@ It should look like this
 ![Heroku Post Build](public/images/heroku-postbuild.png);
 
 #### Step 5
-![Heroku upload](public/images/herokuupload.png);
+![Heroku upload](public/images/herokuupload.PNG);
