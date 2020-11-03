@@ -25,13 +25,13 @@ Assuming you have the following folder structure
 > Note: all these steps below are done inside the main `server.js` file. In our case, inside server.js. 
 
 #### Step 1
-![PORT Images](public/images/port.png);
+![PORT Images](public/images/port.png)
 
 #### Step 2
-![MONGODB_URI](public/images/mongodb_uri.png);
+![MONGODB_URI](public/images/mongodb_uri.png)
 
 #### Step 3
-![Node Env](public/images/node_env.png);
+![Node Env](public/images/node_env.png)
 
 #### Step 4
 > `package.json`
@@ -45,7 +45,7 @@ Heroku has 2 builds scripts that you can run either before or after the build.
 We're going to use the `heroku-postbuild` one. This is a change that we need to do inside the package.json, under the scripts section.
 
 It should look like this
-![Heroku Post Build](public/images/heroku-postbuild.png);
+![Heroku Post Build](public/images/heroku-postbuild.png)
 
 #### Step 5
-![Heroku upload](public/images/herokuupload.PNG);
+![Heroku upload](public/images/herokuupload.PNG)
