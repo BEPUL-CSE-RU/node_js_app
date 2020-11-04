@@ -3,6 +3,7 @@ import Form from './components/Form';
 import DisplayUsers from './components/DisplayUsers';
 import axios from 'axios';
 import './App.css';
+import ColumnChart from './components/chart/Chart';
 class App extends Component {
   state = {
     users: []
@@ -31,6 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <ColumnChart />
         <Form addUser={this.addUser}/>
         < DisplayUsers users={this.state.users} />
 
